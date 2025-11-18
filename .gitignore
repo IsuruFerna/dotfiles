@@ -2,12 +2,12 @@
 *
 
 # Ignore Code directory
-Code/
+Code/*
 
 # Allow these files/directories
 !.gitignore
-!nvim/
-!wezterm/
+!nvim/*
+!wezterm/*
 !README.md
 
 # Allow directories so nvim/, wezterm/ contents are checked
