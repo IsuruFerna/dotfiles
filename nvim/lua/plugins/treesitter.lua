@@ -1,0 +1,41 @@
+return {
+	"nvim-treesitter/nvim-treesitter",
+	lazy = false,
+	priority = 999,
+	config = function()
+		require("nvim-treesitter.configs").setup({
+			ensure_installed = {
+				-- Core
+				"c",
+				"cpp",
+				"lua",
+				"vim",
+				"vimdoc",
+				"query",
+				"bash",
+				"json",
+				"yaml",
+				"html",
+				"css",
+				"scss",
+				"javascript",
+				"typescript",
+				"tsx",
+				"markdown",
+				"markdown_inline",
+				"python",
+				"go",
+				"rust",
+				"dockerfile",
+				"toml",
+				"regex",
+				"graphql",
+				"sql",
+			},
+			sync_install = false,
+			highlight = { enable = true },
+			autotag = { enable = true },
+			auto_install = true,
+		})
+	end,
+}

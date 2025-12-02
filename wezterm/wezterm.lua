@@ -83,10 +83,10 @@ local config = {
 		{ key = "w", mods = "ALT", action = act.CloseCurrentTab({ confirm = true }) },
 
 		-- slipt terminal
-		{ key = "j", mods = "ALT", action = act.SplitPane({ direction = "Down" }) },
-		{ key = "l", mods = "ALT", action = act.SplitPane({ direction = "Right" }) },
-		{ key = "k", mods = "ALT", action = act.SplitPane({ direction = "Up" }) },
-		{ key = "h", mods = "ALT", action = act.SplitPane({ direction = "Left" }) },
+		{ key = "j", mods = "CTRL|ALT", action = act.SplitPane({ direction = "Down" }) },
+		{ key = "l", mods = "CTRL|ALT", action = act.SplitPane({ direction = "Right" }) },
+		{ key = "k", mods = "CTRL|ALT", action = act.SplitPane({ direction = "Up" }) },
+		{ key = "h", mods = "CTRL|ALT", action = act.SplitPane({ direction = "Left" }) },
 
 		{ key = "q", mods = "ALT", action = act.CloseCurrentPane({ confirm = true }) },
 	},

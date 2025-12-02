@@ -7,7 +7,9 @@ Code/
 # Allow these files/directories
 !.gitignore
 !nvim/
+!nvim/**
 !wezterm/
+!wezterm/**
 !README.md
 
 # Allow directories so nvim/, wezterm/ contents are checked
